@@ -1,7 +1,7 @@
 modLoader="lowcodefml"
 loaderVersion="[47,)"
 license="MIT"
-issueTrackerURL="https://github.com/sasnycon/Ad_Astra_Mekanism_Fix/issues"
+issueTrackerURL="https://github.com/valcheffnet/Ad_Astra_Mekanism_Fix/issues"
 
 [[mods]]
 modId="ad_astra_mekanism_fix"
