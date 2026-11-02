@@ -1,0 +1,47 @@
+modLoader="lowcodefml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/sasnycon/Ad_Astra_Mekanism_Fix/issues"
+
+[[mods]]
+modId="ad_astra_mekanism_fix"
+version="1.0.0"
+displayName="Ad Astra Mekanism Fix"
+authors="SasnycoN"
+description='''
+Ad Astra 1.15.x ships two Mekanism-conditional crushing recipes whose
+input tags are not defined anywhere:
+
+  forge:sandstone/venus_sandstone   (venus_sandstone -> venus_sand)
+  forge:ores/ice_shard              (ice_shard_ore -> ice_shards)
+
+Adds the two tags. Only matters when Ad Astra and Mekanism are both loaded.
+'''
+
+[[dependencies.ad_astra_mekanism_fix]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.ad_astra_mekanism_fix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.ad_astra_mekanism_fix]]
+    modId="ad_astra"
+    mandatory=true
+    versionRange="[1.15,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.ad_astra_mekanism_fix]]
+    modId="mekanism"
+    mandatory=true
+    versionRange="[10.4,)"
+    ordering="AFTER"
+    side="BOTH"
